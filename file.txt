@@ -1,4 +1,4 @@
-Want to learn Tailwind CSS!
+Want to learn Tailwind CSS?
 Tailwind is the fatest growing utility-first CSS framework. Let's learn it step by step.
 
 How It Works
