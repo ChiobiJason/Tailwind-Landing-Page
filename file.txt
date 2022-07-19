@@ -10,6 +10,7 @@ course.
 Advantages
 No Custom CSS
 Tailwind's advanced class extraction will leave your project free of custom CSS.
+
 Developer Experience
 Tailwind is designed with your happiness in mind. The ease of performing changes is refreshing.
 

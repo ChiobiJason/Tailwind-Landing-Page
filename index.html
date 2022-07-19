@@ -8,11 +8,12 @@
     <title>Tailwind Landing Page</title>
   </head>
   <body>
+    <!-- Header -->
     <div
       class="bg-blue-500 relative border-solid border-b-4 border-fuchsia-500"
     >
       <div class="p-4">
-        <img class="h-1/5 w-1/5 rounded-full" src="./scrimba.png" alt="" />
+        <img class="h-1/5 w-1/5 rounded-full" src="images/scrimba.png" alt="" />
         <!-- <svg
         width="673"
         height="109"
@@ -41,11 +42,14 @@
       </div>
       <img
         class="h-32 w-32 absolute right-8 -bottom-16 border-solid border-4 border-fuchsia-500 rounded-full"
-        src="./tailwind.png"
+        src="images/tailwind.png"
         alt=""
       />
     </div>
+
+    <!-- Body -->
     <div class="bg-slate-100 pt-16">
+      <!-- How it works -->
       <div class="p-4">
         <h1 class="text-4xl font-bold text-blue-500 pb-2">How It Works</h1>
         <hr class="bg-black w-3/4 mb-4" />
@@ -57,10 +61,78 @@
           this all-inclusive course.
         </p>
       </div>
+
+      <!-- Advantages -->
       <div class="p-4">
         <h1 class="text-4xl font-bold text-blue-500 pb-2">Advantages</h1>
         <hr class="bg-black w-3/4 mb-4" />
+        <div class="sm:flex">
+          <div
+            class="bg-white border-b-4 border-fuchsia-500 sm:w-1/3 sm:h-1/3 rounded-lg m-4 flex flex-col items-center"
+          >
+            <img class="p-3" src="images/css-icon.png" alt="" />
+            <h1 class="font-bold pb-2">No Custom CSS</h1>
+            <p class="text-center text-gray-500 px-4 pb-8 tracking-wider">
+              Tailwind's advanced class extraction will leave your project free
+              of custom CSS.
+            </p>
+          </div>
+          <div
+            class="bg-white border-b-4 border-fuchsia-500 sm:w-1/3 sm:h-1/3 rounded-lg m-4 flex flex-col items-center"
+          >
+            <img class="p-3" src="images/developer-experience.png" alt="" />
+            <h1 class="font-bold pb-2">Developer Experience</h1>
+            <p class="text-center text-gray-500 px-4 pb-8 tracking-wider">
+              Tailwind is designed with your happiness in mind. The ease of
+              performing changes is refreshing.
+            </p>
+          </div>
+          <div
+            class="bg-white border-b-4 border-fuchsia-500 sm:w-1/3 sm:h-1/3 rounded-lg m-4 flex flex-col items-center"
+          >
+            <img class="p-3" src="images/mobile-friendly.png" alt="" />
+            <h1 class="font-bold pb-2">Mobile Friendly</h1>
+            <p class="text-center text-gray-500 px-4 pb-8 tracking-wider">
+              Modern applications demand mobile-friendly & Tailwind's responsive
+              modifiers make it easy.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
+
+    <footer class="bg-sky-800">
+      <!-- Sign-up Form -->
+      <div>
+        <h1 class="text-2xl sm:text-4xl text-white text-center p-4">
+          Sign up to download the free PDF
+        </h1>
+        <form class="flex flex-wrap justify-center" action="">
+          <input
+            class="rounded-lg w-1/2 md:w-1/3 h-8 bg-neutral-5 opacity-50 border-4 border-sky-100 shadow-xl placeholder:text-neutral-500 m-4 pl-4"
+            type="text"
+            placeholder="First name"
+          />
+          <input
+            class="rounded-lg w-1/2 md:w-1/3 h-8 bg-neutral-5 opacity-50 border-4 border-sky-100 shadow-xl placeholder:text-neutral-500 m-4 pl-4"
+            type="text"
+            placeholder="Last name"
+          />
+          <input
+            class="rounded-lg w-1/2 md:w-1/3 h-8 bg-neutral-5 opacity-50 border-4 border-sky-100 shadow-xl placeholder:text-neutral-500 m-4 pl-4"
+            type="email"
+            placeholder="john@email.com"
+          />
+          <input
+            class="rounded-lg w-1/2 md:w-1/3 h-8 bg-neutral-5 opacity-50 border-4 border-sky-100 shadow-xl placeholder:text-neutral-500 m-4 pl-4"
+            type="text"
+            placeholder="Your title"
+          />
+          <button class="rounded-lg w-2/4 bg-sky-700 text-white">
+            Create account
+          </button>
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
